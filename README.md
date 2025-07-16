@@ -1,6 +1,12 @@
 # Mini-Clinical-AI-Assistant
 This repository contains the source code for a mini clinical AI assistant that transcribes clinical audio and performs various information extraction on it. 
 
+### Running the code
+
+1. Add your GPT-4o credentials in ```models/credentials/gpt4o.yaml```
+2. Run ```pip install requirements.txt```
+3. Run ```python -m src.main```
+
 ### Features
 
 1. Audio Transcription using OpenAI Whisper
