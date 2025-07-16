@@ -21,6 +21,8 @@ This repository contains the source code for a mini clinical AI assistant that t
 │
 ├── audio/                            # Input - Sample audio file
 │   └── sample_audio.wav
+│ 
+├── extracts_for_db/                  # Contains 10 sample clinical JSON extracts to simulate RAG on past diagnosis
 │
 ├── models/                           # Model-related classes and credentials
 │   ├── credentials/
@@ -44,6 +46,7 @@ This repository contains the source code for a mini clinical AI assistant that t
 │   ├── test.ipynb                    # Jupyter notebook for experimentation
 │   ├── generate_sample_audio.py     # Script to generate a sample audio from text using gTTS (Not a module)
 │   └── transcriber.py               # Whisper transcription wrapper
+│   └── rag.py                       # Contains RAG Script            
 │
 ├── transcripts/                      # Generated text transcripts
 │   ├── sample_transcript.txt
@@ -51,9 +54,12 @@ This repository contains the source code for a mini clinical AI assistant that t
 │
 ├── utilities/                        # Utility functions
 │   └── functions.py
+│ 
+├── vectorstore
+│   └── faiss.py                      # FAISS Vector Store definition
 │   
-├── clinical_ai_assistant_documentation.pdf
-│     # Documentation of the approach
+├── clinical_ai_assistant_documentation.pdf        # Documentation of the approach
+│     
 ├── requirements.txt
 ```
 
