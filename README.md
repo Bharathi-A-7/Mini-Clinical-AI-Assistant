@@ -12,7 +12,6 @@ This repository contains the source code for a mini clinical AI assistant that t
 ### Project Structure 
 
 ```
-clinical_ai_assistant/
 │
 ├── audio/                            # Input - Sample audio file
 │   └── sample_audio.wav
