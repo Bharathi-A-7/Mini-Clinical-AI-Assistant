@@ -1,6 +1,10 @@
 gtts==2.5.4
+numpy==1.25.2
+openai_whisper==20250625
 pydantic==1.8.2
 PyYAML==6.0
 Requests==2.32.4
+sentence_transformers==5.0.0
 whisper==1.1.10
-openai-whisper==20250625
+faiss-cpu==1.11.0
+pillow==9.5.0
