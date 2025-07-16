@@ -1,5 +1,5 @@
 # Mini-Clinical-AI-Assistant
-This repository contains the source code for a mini clinical AI assistant that transcribes clinical audio and performs various information extraction on it. 
+This repository contains the source code for a mini clinical AI assistant that transcribes clinical audio and performs various information extraction on it. There is also an RAG system to query past clinical records for diagnoses and suggest appropriate treatment options. 
 
 ### Running the code
 
