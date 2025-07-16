@@ -52,8 +52,9 @@ This repository contains the source code for a mini clinical AI assistant that t
 ├── utilities/                        # Utility functions
 │   └── functions.py
 │   
-├── clinical_ai_assistant_documentation.pdf        # Documentation of the approach
-
+├── clinical_ai_assistant_documentation.pdf
+│     # Documentation of the approach
+├── requirements.txt
 ```
 
 ### Outputs
