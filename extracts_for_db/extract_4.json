@@ -1,0 +1,15 @@
+{
+    "age": 28,
+    "sex": "female",
+    "chief_complaint": "chronic pelvic pain",
+    "diagnosis": "endometriosis",
+    "recommended_tests": ["MRI pelvis", "diagnostic laparoscopy"],
+    "medications": [
+      {
+        "name": "naproxen",
+        "dose": "250 mg",
+        "frequency": "twice daily as needed"
+      }
+    ]
+  }
+  

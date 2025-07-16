@@ -1,0 +1,15 @@
+{
+    "age": 31,
+    "sex": "female",
+    "chief_complaint": "infertility",
+    "diagnosis": "PCOS",
+    "recommended_tests": ["pelvic ultrasound"],
+    "medications": [
+      {
+        "name": "letrozole",
+        "dose": "2.5 mg",
+        "frequency": "daily"
+      }
+    ]
+  }
+  

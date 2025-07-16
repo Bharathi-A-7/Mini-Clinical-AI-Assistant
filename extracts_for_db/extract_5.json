@@ -1,0 +1,15 @@
+{
+    "age": 30,
+    "sex": "female",
+    "chief_complaint": "painful periods",
+    "diagnosis": "endometriosis",
+    "recommended_tests": ["pelvic MRI", "CA-125 blood test"],
+    "medications": [
+      {
+        "name": "combined oral contraceptives",
+        "dose": "",
+        "frequency": ""
+      }
+    ]
+  }
+  

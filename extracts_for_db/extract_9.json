@@ -1,0 +1,15 @@
+{
+    "age": 37,
+    "sex": "female",
+    "chief_complaint": "heavy menstrual bleeding",
+    "diagnosis": "uterine fibroids",
+    "recommended_tests": ["iron studies", "pelvic MRI"],
+    "medications": [
+      {
+        "name": "tranexamic acid",
+        "dose": "",
+        "frequency": "during menses"
+      }
+    ]
+}
+  

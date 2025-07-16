@@ -1,0 +1,9 @@
+{
+    "age": 33,
+    "sex": "female",
+    "chief_complaint": "missed periods",
+    "diagnosis": "PCOS",
+    "recommended_tests": ["serum insulin", "AMH test"],
+    "medications": []
+  }
+  

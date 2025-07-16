@@ -1,0 +1,15 @@
+{
+    "age": 29,
+    "sex": "female",
+    "chief_complaint": "irregular menstrual cycles",
+    "diagnosis": "PCOS",
+    "recommended_tests": ["pelvic ultrasound"],
+    "medications": [
+      {
+        "name": "metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily"
+      }
+    ]
+  }
+  

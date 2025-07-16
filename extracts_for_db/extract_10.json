@@ -1,0 +1,9 @@
+{
+    "age": 38,
+    "sex": "female",
+    "chief_complaint": "difficulty conceiving",
+    "diagnosis": "diminished ovarian reserve",
+    "recommended_tests": ["AMH", "AFC"],
+    "medications": []
+  }
+  

@@ -27,7 +27,36 @@ def write_json_to_file(data, file_path):
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False)
 
+def load_json_docs(folder_path):
+    """
+    Loads all JSON documents from a specified folder.
 
+    Args:
+        folder_path (str): Path to the JSON folder.
+
+    Returns:
+        List[dict]: List of loaded JSON documents.
+    """
+
+    docs = []
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".json"):
+            with open(os.path.join(folder_path, filename), 'r') as f:
+                data = json.load(f)
+                docs.append(data)
+    return docs
+
+def json_to_text(doc):
+    """
+    Converts a JSON dict into string.
+
+    Args:
+        doc (dict): The dictionary to convert.
+
+    Returns:
+        str: String version of the dictionary.
+    """
+    return json.dumps(doc, indent=2)
 
 def load_prompts_from_dir(directory_path):
     """

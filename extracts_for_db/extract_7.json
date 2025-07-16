@@ -1,0 +1,15 @@
+{
+    "age": 36,
+    "sex": "female",
+    "chief_complaint": "amenorrhea",
+    "diagnosis": "premature ovarian insufficiency",
+    "recommended_tests": ["FSH", "estradiol", "AMH"],
+    "medications": [
+      {
+        "name": "hormone replacement therapy",
+        "dose": "",
+        "frequency": ""
+      }
+    ]
+}
+  

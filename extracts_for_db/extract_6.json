@@ -1,0 +1,15 @@
+{
+    "age": 34,
+    "sex": "female",
+    "chief_complaint": "irregular cycles",
+    "diagnosis": "hypothyroidism",
+    "recommended_tests": ["TSH", "T3", "T4"],
+    "medications": [
+      {
+        "name": "levothyroxine",
+        "dose": "50 mcg",
+        "frequency": "daily"
+      }
+    ]
+  }
+  
